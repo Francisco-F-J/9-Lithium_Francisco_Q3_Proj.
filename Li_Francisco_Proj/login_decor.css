@@ -1,0 +1,137 @@
+/*bg & website overall style*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bg&images/Dawn_ocean_view.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*login website main card style*/
+#login-maincard {
+    background-color: #ffffff50;
+    width: 1250px;
+}
+/*introduction and login card section style*/
+#login-head {
+    display: flex;
+    align-items: center;
+}
+/*introduction section placement configuration and style*/
+#login-intro {
+    margin-right: 75px;
+    margin-left: 50px;
+}
+/*style of logo inside introduction section*/
+#logo-head {
+    width: 200px;
+    height: auto;
+    margin: 5px 0px;
+}
+/*login page main card style*/
+#login_infocard {
+    width: 1400px;
+}
+/*login page main card header style*/
+#login_cardhead {
+    background-image: url(bg&images/mountain-rangecool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*login page main card headertext style*/
+#card-headtext {
+    font-weight: bold;
+}
+/*empty infobox reminder text style*/
+#text_rem {
+    margin-bottom: 5px;
+    color: maroon;
+    font-style: italic;
+}
+/*username textbox when selected*/
+#userbox:focus {
+    background-color: #e3e3e3;
+}
+/*username textbox when touched by cursor*/
+#userbox:hover {
+    background-color: #e3e3e3;
+}
+/*password textbox when selected*/
+#passbox:focus {
+    background-color: #e3e3e3;
+}
+/*password textbox when touched by cursor*/
+#passbox:hover {
+    background-color: #e3e3e3;
+}
+/*"Login" button style*/
+.btn {
+    background-image: url(bg&images/login-buttonbg.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+}
+/*main footer housing style*/
+#login_mainfoot {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b1b1b;
+}
+#mainfootcont {
+    width: 966px;
+    margin: 0px auto;
+}
+/*main footer horizontal bars style*/
+#footer_horibar {
+    color: #8B9099;
+}
+/*footer logo style*/
+#login_logofoot {
+    width: 18%;
+    height: auto;
+    float: left;
+}
+/*website anti-slander clause style*/
+#card-clause {
+    font-size: 12px;
+    color: #8B9099;
+    text-align: justify;
+    text-justify: left;
+}
+/*footer letter hyperlinks placement configuration*/
+#hyperlinkcont {
+    float: left;
+    margin-top: -10px;
+}
+/*footer letter hyperlinks style*/
+#footlink {
+    text-decoration: none;
+	color: #CCCCCC;
+	display: inline;
+	font-weight: 200%;
+    font-size: 13px;
+}
+/*footer letter hyperlinks divider style*/
+#divider {
+    padding: 0px 7px; /*padding on both sides of the content it houses*/
+	display: inline;
+	color: #8B9099;
+    font-size: 13px;
+}
+/*Youtube channel image sprite placeholder style*/
+#YT_sprite {
+    background-image: url(bg&images/bpt1.jpg);
+    background-size: 462px 126px;
+    background-position: -420px -42px;
+   float: right;
+   width: 42px;
+   height: 42px;
+   margin-top: -8px;
+}
+/*copyright text footer housing style*/
+#login_copyfoot {
+    font-family: Arial, Helvetica, sans-serif;
+ 	background-color: #0E0E10;
+ 	color: white;
+}
+/*style of the copyright text itself*/
+#copyright {
+    margin-bottom: 0px;
+}

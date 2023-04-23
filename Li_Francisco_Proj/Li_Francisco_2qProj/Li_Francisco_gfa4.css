@@ -1,0 +1,154 @@
+/**background & overall format style**/
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(moving_assets/Dawn_ocean_view.gif); /**bg img**/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*affects the <header> area*/
+header {
+	background-color: #1B1B1B;
+}
+/*affects the logo*/
+#logo {
+	width: 25%;
+	height: auto;
+}
+/*affects all links inside the <nav> section*/
+nav > a {
+	text-decoration: none;
+	margin: 0px 169px; /*paddding between the border(x1) & the links beside them(x2)*/
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+/*affects the navigation bar itself*/
+nav {
+	border: 1px solid black;
+	background-image: linear-gradient(50deg, #545AA7, #4B61D1, #4000FF);
+	padding: 15px 0px; /*padding above & below the links it houses*/
+	position: sticky;
+	top: 0px;
+	margin-top: -1em;
+	margin-bottom: -1.25em;
+}
+/*order of link style arrangement: link, visited, hover, active*/
+/*virgin states: all links while left untouched*/
+nav > a:link {
+	color: white;
+}
+/*fondled states: all links after being clicked*/
+nav > a:visited {
+	color: white;
+}
+/*interaction states: all links while being touched/caressed by cursor*/
+nav > a:hover {
+	animation-name: blink;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+/*affects "animation-name: blink;"*/
+@keyframes blink {
+	10%     {color: lightblue;}
+	25%     {color: skyblue;}
+	50%     {color: darkblue;}
+	75%     {color: skyblue;}
+	90%     {color: lightblue;}
+	95%     {color: white;}
+}
+/*under harassment states: all links when clicked*/
+nav > a:active {
+	color: white;
+}
+/*affects all ad spaces of all pages*/
+#index_as, #Aid_as, #PS_as {
+	float: right;
+	margin-top: 1.35em;
+	margin-right: 70px;
+	width: 8%;
+	height: auto;
+}
+/*affects the <article> area itself*/
+article {
+	background-color: #ffffff60;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	margin: -1em 250px;
+	padding: 0px 7px; /*padding on both sides of the content it houses*/
+	border: 2px solid black;
+}
+/*affects all <p> elements within the <article> area*/
+article > p {
+	text-indent: 75px;
+	line-height: 27px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*affects all <h1> elements within the <article> area*/
+article > h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-bottom: -.5em;
+}
+/*affects the mainfooter*/
+#mainfoot {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 30px 200px 35px; /*padding respectively on top, both sides and bottom of the content it houses*/
+	background-color: #1B1B1B;
+	margin-top: -1em !important;
+	margin-bottom: -1em !important;
+	font-size: 13px; /*font size of #footlinks below the website's Anti-slander clause*/
+}
+/*affects the footer logo*/
+#logofoot {
+	width: 18%;
+	height: auto;
+	float: left;
+}
+/*affects the footer's Anti-slander clause*/
+#clause {
+	font-size: 12px;
+	color: #8B9099;
+}
+/*affects the barline below the Anti-slander clause*/
+#clausebelow {
+	margin-bottom: 10px;
+}
+/*affects the links below the footer's clause no matter the state*/
+#footlink {
+	text-decoration: none;
+	color: #CCCCCC;
+	display: inline;
+	font-weight: 200%;
+}
+/*affects the footer link divider "|"*/
+#divider {
+	padding: 0px 7px; /*padding on both sides of the content it houses*/
+	display: inline;
+	color: #8B9099;
+}
+/*affects the copyright footer*/
+#copyfoot {
+	font-family: Arial, Helvetica, sans-serif;
+ 	background-color: #0E0E10;
+ 	color: white;
+ 	margin-top: -1em !important;
+ 	margin-bottom: -1em !important;
+}
+/*affects the Youtube channel image sprite placeholder*/
+#YT_sprite {
+  	background-image: url(Images_and_sprites/bpt1.jpg);
+  	background-size: 462px 126px;
+  	background-position: -420px -42px;
+ 	float: right;
+ 	width: 42px;
+ 	height: 42px;
+}
+/*affects the copyright text itself*/
+#copyright {
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	text-align: center;
+ 	padding: 10px 25px; /*padding on top and bottom of the content it houses*/
+}
